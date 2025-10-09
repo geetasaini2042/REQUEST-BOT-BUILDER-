@@ -1,0 +1,100 @@
+{
+  "data": {
+    "created_by": 6150091802,
+    "description": "👋 Welcome to **UPSC STUDY Bot**  \n\nThis bot is your free companion for UPSC preparation — from **Prelims to Mains to Interview**. 🚀  \n\n━━━━━━━━━━━━━━━  \n✨ Features  \n• 📚 Complete Syllabus Tracker  \n• 📰 Weekly Current Affairs + One-Liners  \n• 📄 Previous Year Questions (Prelims & Mains)  \n• 🧪 Quizs & Weekly Mock Tests  \n• 📝 Notes, Answer Writing Practice & Model Answers  \n━━━━━━━━━━━━━━━  \n▶️ How to Start?  \n\nJust send /start command or use command from menu\n\n━━━━━━━━━━━━━━━  \n📌 Main Commands  \n/start — Start the bot  \n/plan — Create 7/30/90 day study plan  \n/quiz — Quiz (Topic-wise)  \n/pyq — Previous Year Questions    \n/current — Weekly Current Affairs + PIB/PRS Highlights  \n/mains — Answer writing practice + Model answers  \n/help — Support & guide   \n\n━━━━━━━━━━━━━━━  \n💡 Tips  \n• Spend at least 25–30 mins daily on Current Affairs + Quiz + Review  \n• Take weekly mocks and update your error log  \n• Always structure answers in Intro → Body → Conclusion with data/examples  \n\n📣 Extra Resource: For more UPSC content, check \nhttps://upsc.edumate.life\n\n━━━━━━━━━━━━━━━  \n⚠️ Disclaimer  \nThis bot is for educational purposes only. Please verify official updates on UPSC’s website.  \n\nLet’s achieve the dream of **UPSC Success — Mission 2028** together! 🏆",
+    "id": "root",
+    "items": [
+      {
+        "column": 0,
+        "created_by": 6150091802,
+        "description": "CHECK YOUR RESULT NOW \nVISIT THE WEBSITE\nhttps://upsc.edumate.life/results/",
+        "id": "item_ce5bf0",
+        "items": [
+          {
+            "caption": "Check RESULT",
+            "column": 0,
+            "created_by": 6150091802,
+            "id": "url_700546c68414",
+            "name": "Check Your Result Now",
+            "row": 0,
+            "type": "url",
+            "url": "https://upsc.edumate.life/results/"
+          }
+        ],
+        "name": "RESULTS",
+        "parent_id": "root",
+        "row": 0,
+        "type": "folder",
+        "user_allow": []
+      },
+      {
+        "caption": "Welcome to CHANNEL",
+        "column": 0,
+        "created_by": 6150091802,
+        "id": "url_1d3a3b95ac5d",
+        "name": "JOIN CHANNEL",
+        "row": 2,
+        "type": "url",
+        "url": "https://t.me/upsc_hindi_student"
+      },
+      {
+        "caption": "Welcome to group",
+        "column": 1,
+        "created_by": 6150091802,
+        "id": "url_dadea38233ac",
+        "name": "JOIN TELEGRAM GROUP",
+        "row": 2,
+        "type": "url",
+        "url": "https://t.me/upsc_hindi_students"
+      },
+      {
+        "caption": "UPSC OFFICIAL WEBSITE",
+        "column": 0,
+        "created_by": 6150091802,
+        "id": "url_f05e43fe29e8",
+        "name": "UPSC OFFICIAL WEBSITE",
+        "row": 3,
+        "type": "url",
+        "url": "https://upsc.gov.in"
+      },
+      {
+        "caption": "UPSC EDUMATE WEBSITE",
+        "column": 1,
+        "created_by": 6150091802,
+        "id": "url_f9586a055d94",
+        "name": "UPSC EDUMATE WEBSITE",
+        "row": 3,
+        "type": "url",
+        "url": "https://upsc.edumate.life/"
+      },
+      {
+        "column": 0,
+        "created_by": 6150091802,
+        "description": "Please Join this Channel to Explore All bots from **SingodiyaTech**",
+        "id": "item_51a81a",
+        "items": [
+          {
+            "caption": "Education Ai Bots",
+            "column": 0,
+            "created_by": "6150091802",
+            "id": "5b547cbaeb42",
+            "name": "Join Telegram Channels",
+            "parent_id": "item_51a81a",
+            "row": 0,
+            "type": "url",
+            "url": "https://t.me/edu_bots1"
+          }
+        ],
+        "name": "MORE BOTS",
+        "parent_id": "root",
+        "row": 7,
+        "type": "folder",
+        "user_allow": []
+      }
+    ],
+    "name": "Root",
+    "parent_id": null,
+    "type": "folder",
+    "user_allow": []
+  }
+}
