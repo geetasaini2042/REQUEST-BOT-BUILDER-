@@ -1,9 +1,8 @@
 import json
 from collections import defaultdict
 from pathlib import Path
-from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, WebAppInfo
+#from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, WebAppInfo
 from common_data import BASE_PATH
-from pathlib import Path
 BASE_PATH = Path(BASE_PATH)
 
 
