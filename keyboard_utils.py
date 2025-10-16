@@ -1,8 +1,8 @@
 import json
 from collections import defaultdict
 from pathlib import Path
-#from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, WebAppInfo
 from common_data import BASE_PATH
+from pathlib import Path
 BASE_PATH = Path(BASE_PATH)
 
 
@@ -10,7 +10,7 @@ DEFAULT_JSON = {
     "data": {
         "id": "root",
         "name": "Root",
-        "description": "Welcome to UPSC STUDY Bot!",
+        "description": "Welcome to Bot!",
         "type": "folder",
         "created_by": 6150091802,
         "parent_id": None,
@@ -20,14 +20,20 @@ DEFAULT_JSON = {
 }
 
 
-def ADMINS(bot_id: str):
-    """Load admins from ADMINS.json"""
+def ADMINS(bot_id: str) -> list:
     admin_file = BASE_PATH / "BOT_DATA" / bot_id / "ADMINS.json"
+
+    if not admin_file.exists():
+        return []
+
     try:
-        with open(admin_file, "r") as f:
+        with admin_file.open("r", encoding="utf-8") as f:
             data = json.load(f)
-            return data.get("owner", []) + data.get("admin", [])
-    except:
+            owners = data.get("owner", [])
+            admins = data.get("admin", [])
+            return owners + admins
+    except (json.JSONDecodeError, IOError) as e:
+        print(f"Error loading {admin_file}: {e}")
         return []
 
 def get_root_inline_keyboard(bot_token: str, user_id: int):

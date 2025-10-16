@@ -5,6 +5,7 @@ from pathlib import Path
 from common_data import BASE_PATH
 BASE_PATH = Path(BASE_PATH)
 from keyboard_utils import ADMINS  # uses BASE_PATH from keyboard_utils
+from script import get_bot_folder
 
 def load_bot_data(bot_token: str):
     bot_id = bot_token.split(":")[0]
@@ -26,6 +27,9 @@ def find_folder_by_id(folder: dict, folder_id: str):
             if found:
                 return found
     return None
+def get_data_file(bot_token: str) -> str:
+    return os.path.join(get_bot_folder(bot_token), "bot_data.json")
+    
 
 def generate_folder_keyboard(folder: dict, user_id: int, bot_id: str):
     layout = defaultdict(dict)
